@@ -65,6 +65,7 @@
 
         // 식별 키로 문서 객체 제거
         const removeTodo = (key) => {
+          //임의로 추가한 속성을 선택하려면, 대괄호[] 안에 속성 이름 넣음
           const item = document.querySelector(`[data-key="${key}"]`); //'data-key'속성의 해당되는 key 찾아서 삭제
           todoList.removeChild(item);
         };
